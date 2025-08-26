@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-l@1k(ase2(@(6(fbkp73fi=065-e7#2^4w@e^sh(05df3qn+!w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ericbodeportfolio.com','django-professional-portfolio-production.up.railway.app','localhost']
+ALLOWED_HOSTS = ['https://ericbodeportfolio.com','ericbodeportfolio.com','django-professional-portfolio-production.up.railway.app','localhost']
 
 
 # Application definition
