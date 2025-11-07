@@ -60,17 +60,137 @@
             <!-- Projects-->
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <p>Built a Restaurant Website Django/Python and Object Relational Mapping</p>
-                    <ul>
-                        <li><a href="https://medlykitchen.com"><p>Restaurant Website Project</p></a></li>
-                    </ul>
-                    <p>Built a Housemarketplace Website with a .NET API Back-End and a React Front-End</p>
-                    <ul>
-                        <li><a href="https://housemarketplaceapi.com/swagger/index.html"><p>https://housemarketplaceapi.com/swagger/index.html</p></a></li>
-                        <li><a href="https://housemarketplacefrontend.com/"><p>https://housemarketplacefrontend.com/</p></a></li>
-                    </ul>
+                    <h2 class="mb-0">Projects </h2>
+                    <p class="mb-5">(click on project to view)</p>
+
+                    <div class="projectcard mb-5">
+                    <a class="projectlink" href="https://medlykitchen.com">
+                        <br/>
+                        <h3>Restaurant Website</h3>
+                        <ul class="list-inline dev-icons skills">
+                            <li class="list-inline-item"><img class="custom-icon" src="{% static 'assets/img/django.svg'%}" alt="Django Icon"></li>
+                            <li class="list-inline-item"><i class="fa-brands fa-python"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                            <li class="list-inline-item"><img class="custom-icon" src="{% static 'assets/img/SQL.svg'%}" alt="SQL Icon"></li>
+                        </ul>
+                        <div>
+                            <p>Used Django’s Model View Template structure (similar to Model View Controller structure) to logically organize this website.
+                            </p>
+                            <p>Created menu item and booking model classes and used Object Relationship Mapping (ORM) to store menu items and bookings in a database. 
+                            </p>
+                            <p>Designed Menu and Menu item pages that use Django Templating Language to dynamically display menu item prices, descriptions, and pictures, pulling data from the database.
+                            </p>
+                            <p>Used template inheritance to reuse a base html page with headers and footers for all the websites different pages
+                            </p>
+                        </div>
+                        
+                        <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Django                        
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Python
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            HTML
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            CSS
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            SQL
+                        </li>
+                        </ul>
+                        <br/>
+                    </a> 
+                    </div>
                     
+                <div class="projectcard mb-5">
+                <a class="projectlink" href="https://housemarketplaceapi.com/swagger/index.html">
+                    <br/>
+                    <h3>House Marketplace Back-End API</h3>
+                    <ul class="list-inline dev-icons skills">
+                        <li class="list-inline-item"><img class="custom-icon" src="{% static 'assets/img/DotNET.svg'%}" alt=".NET Icon"></li>
+                        <li class="list-inline-item"><img class="custom-icon" src="{% static 'assets/img/CSharp.svg'%}" alt="C# Icon"></li>
+                        <li class="list-inline-item"><img class="custom-icon" src="{% static 'assets/img/SQL.svg'%}" alt="SQL Icon"></li>
+                    </ul>
+                    <div>
+                        <p>Built an API with CRUD endpoints in ASP.NET. 
+                        </p>
+                        <p>Created Data Transfer Objects and Entities to maintain better control over data exposure and allow for easier modification.
+                        </p>
+                        <p>Used Entity Framework to map house and bid entities to a MySQL database.
+                        </p>
+                        <p>Used Swagger to create documentation of the API. I did leave Swagger publicly visible (which is normally not the best practice) so you can see the structure of my API.
+                        </p>
+                    </div>
+                    <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        ASP.NET                        
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        C#
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                            RESTful APIs
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        MySQL
+                    </li>
+                    </ul>
+                <br/>
+                </a>
+                </div>
+                    
+                <div class="projectcard mb-5">
+                <a class="projectlink" href="https://housemarketplacefrontend.com/">
+                <br/>   
+                    <h3>House Marketplace Front-End</h3>
+                    <ul class="list-inline dev-icons skills">
+                        <li class="list-inline-item"><i class="fa-brands fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                    </ul>
+                    <div>
+                        <p>Used Vite to create a React based Single Page Application that consumes the API in the project above.</p>
+                    </div>
+                    <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        React                        
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        JavaScript
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        TypeScript
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        HTML
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        CSS
+                    </li>
+                    </ul>
+                <br/>
+                </a>
+                </div>
+               
                 </div>
             </section>
             <hr class="m-0" />
